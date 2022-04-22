@@ -79,6 +79,11 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. Put your answers underneath the questions:
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+React Js is a JS library used to control the flow of data, and make sure that when liking a post, retweeting, or commenting on something that only that specific component is
+rendered rather than reloading the whole webpage
 1. Describe component state.
+component state is a state of data that when it is changed it is able to reload and re-render rather than re-render the whole page.
 1. Describe props.
+props is the data that is passed into the state of a component
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+data fetching, setting up a subscription, and manually changing the DOM are all side effects. You can sync React components using hooks such as useEffect.
